@@ -1,0 +1,47 @@
+section.about-section
+  .wrapper
+    .about-section__container
+      img.about-section__icon-1(src="images/about-section-icon-1.png" loading="lazy" width="594" height="604" alt="icon")
+      img.about-section__icon-2(src="images/about-section-icon-2.png" loading="lazy" width="432" height="328" alt="icon")
+      img.about-section__icon-3(src="images/about-section-icon-3.png" loading="lazy" width="334" height="343" alt="icon")
+      h2.about-section__title.font-w-bold.font-s-42.text-up
+        span.color-grey «BULVAR» 
+        | — 20 лет 
+        br
+        | успешного развития
+      .about-section__box
+        img.about-section__img(src="images/about-section-img.png" loading="lazy" width="760" height="802" alt="image")
+        .about-section__text
+          .font-s-24
+            | Наш первый магазин был запущен в 2004 году в г. Каспийск. 
+            br.no-br
+            | За 20 лет мы расширились до 2 собственных магазинов, 
+            br.no-br
+            | подписали выгодные контракты с производителями, изучили 
+            br.no-br
+            | все нюансы работы с партнерами и клиентами. Сегодня в наших 
+            br.no-br
+            | магазинах можно найти самый большой ассортимент обуви, 
+            br.no-br
+            | одежды и сумок в городе по самым выгодным ценам.
+          .font-s-24
+            | Для новых партнеров у нас готова пошаговая инструкция 
+            br.no-br
+            | по быстрому запуску и выходу на окупаемость. Мы 
+            br.no-br
+            | с удовольствием поделимся опытом и знаниями, а также 
+            br.no-br
+            | обеспечим комплексную поддержку и помощь во всех 
+            br.no-br
+            | начинаниях. Будем рады видеть в числе наших франчайзи 
+            br.no-br
+            | целеустремленных людей, которые хотят развиваться 
+            br.no-br
+            | и расти в этой интересной и прибыльной нише.
+      form.about-section__form(data-feedback-form)
+        textarea.input.input--textarea(type="text" name="answer" autocomplete="off" placeholder="Текст вопроса")
+        .about-section__form-column
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Задать вопрос

@@ -1,0 +1,19 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-bold.font-s-44.text-up
+        | Откройте прибыльный 
+        br.no-br
+        | магазин одежды, обуви 
+        br.no-br
+        | и аксессуаров 
+        br.no-br
+        | с франшизой 
+        span.color-grey «BULVAR»
+      form.main-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Узнать условия <br> открытия
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="2234" height="1724" alt="image")

@@ -1,0 +1,24 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h2.city-section__title.font-w-bold.font-s-44-a.text-up
+        | Зарабатывайте
+        br
+        span.city-section__title-inner.font-s-40-a от 1 070 000 рублей в месяц
+        br
+        | став партнером 
+        br.no-br
+        span.color-grey «BULVAR» 
+        | в своем городе
+      .city-section__sub-title
+        img.city-section__sub-title-img(src="images/city-section-sub-title-img.png" loading="lazy" width="213" height="204" alt="image")
+        span.font-s-20
+          | Проверьте, свободен ли ваш город 
+          br
+          | для работы по франшизе
+      form.city-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Проверить
+      img.city-section__img(src="images/city-section-img.png" loading="lazy" width="1084" height="873" alt="image")

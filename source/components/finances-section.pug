@@ -1,0 +1,57 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__icon-1(src="images/finances-section-icon-1.png" loading="lazy" width="653" height="647" alt="icon")
+      img.finances-section__icon-2(src="images/finances-section-icon-2.png" loading="lazy" width="340" height="406" alt="icon")
+      img.finances-section__icon-3(src="images/finances-section-icon-3.png" loading="lazy" width="451" height="529" alt="icon")
+      img.finances-section__icon-4(src="images/finances-section-icon-4.png" loading="lazy" width="417" height="438" alt="icon")
+      h2.finances-section__title.font-w-bold.font-s-42.text-up
+        | О перспективах бизнеса 
+        br
+        | и 
+        span.color-grey главных цифрах 
+        br.no-br
+        | франшизы
+      .swiper-bullet
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-32.text-up.color-grey 2,5 месяца
+            .font-s-24 Понадобится <br> на запуск
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-32.text-up.color-grey 14 месяцев
+            .font-s-24 Средний срок <br>окупаемости
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-32.text-up.color-grey 29,4%
+            .font-s-24 Рентабельность <br> по чистой прибыли
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-32.text-up.color-grey 9 280 000 ₽
+            .font-s-24 Средний размер <br> вложений
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-32.text-up.color-grey 3 650 000 ₽
+            .font-s-24 Средний размер <br> ежемесячной выручки
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-32.text-up.color-grey 1 070 000 ₽
+            .font-s-24 Средний размер <br> ежемесячной прибыли
+        .bullet-pagination.bullet-pagination--right
+      .finances-section__bottom
+        img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="662" height="508" alt="image")
+        .finances-section__bottom-block
+          .font-w-bold.font-s-30-a.text-up
+            | Хотите получить 
+            br.no-br
+            span.color-grey детальные расчеты 
+            br.no-br
+            | для вашего города и 
+            br.no-br
+            | под ваш бюджет?
+          .font-s-20
+            | Скачайте финансовую 
+            br.no-br
+            | модель 
+            span.color-grey «Bulvar»
+        form.finances-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Скачать
+      img.finances-section__img(src="images/finances-section-img.png" loading="lazy" width="760" height="984" alt="image")
